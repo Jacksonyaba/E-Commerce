@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+.pheading{
+    text-align: center;
+    margin: 50px 0;
+    color: #424144;
+    text-decoration: underline green;
+}
+
+/* PRODUCTS */
+
+.sec{
+    padding: 10px 5%;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.products .card{
+    width: 310px;
+    background: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.products .card img{
+    height: 250px;
+    width: 100%;
+}
+
+.products .card .desc{
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+
+.products .card .title{
+    font-weight: 900;
+    font-size: 20px;
+    color: #424144;
+    padding: 0 20px;
+}
+
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.products .card .box .price{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.products .card .box .btn{
+    font-size: 13px;
+    color: white;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+}
+
+.products .card .box .btn:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;   
+}
+
+/* footer */
+footer{
+    background-color: gray;
+    height: 10vh;
+}
+
+footer p{
+    text-align: center;
+    line-height: 10vh;
+}
+
+footer p a{
+    text-decoration: none;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+#searchbar{
+    margin-left: 0%;
+    padding:15px;
+    border-radius: 20px;
+    border-color: blue;
+  }
+
+  input[type=text] {
+     width: 30%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+
+  /* When the input field gets focus,
+       change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+    border-color: blue;
+  }
+
+  select{
+    border: none;;
+    padding: 15px ;
+    border-radius:20px;
+    margin-right: 20%;
+    background: greenyellow;
+  }
+  
+  select:focus{
+    outline:none;
+  }
+.align{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 2em;
+}
+
+.align :first-child {
+    align-self: center;
+}
+     
+  
