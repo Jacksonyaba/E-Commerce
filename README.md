@@ -1,5 +1,5 @@
                                         E-COMMERCE
-						      	Transforming Shopping Into Seamless Expriences
+	Transforming Shopping Into Seamless Expriences
 
 		Contents:
 		Overview
